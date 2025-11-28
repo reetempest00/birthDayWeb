@@ -160,5 +160,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // play musik kedua setelah efek muncul
         setTimeout(() => playBoom2(), 800);
+        
+        // Ubah teks sesaat setelah diklik
+        document.getElementById("tapText").textContent = "";
+
+        // Setelah bucket bunga muncul
+        setTimeout(() => {
+            document.getElementById("tapText").textContent = "Bunganya online dulu yaa 💖 Semoga sayangg suka… 🌸";
+        }, 800);
     });
 });

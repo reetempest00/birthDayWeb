@@ -2,6 +2,25 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.page-content {
+    min-height: calc(100vh - 60px); /* ruang buat footer */
+}
+
+.footer {
+    background-color: #1a1a1a;
+    height: 60px;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 0.8rem;
+    color: #ffd6ef;
+    opacity: 0.9;
+}
+
 body {
     background: #860074;
     color: rgb(255, 252, 252);
