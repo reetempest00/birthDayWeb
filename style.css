@@ -205,6 +205,15 @@ button:hover { background: #d9b7f2; }
     transform: scale(1) translateY(0px) !important;
 }
 
+.hint-text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ffffffcc;
+    font-style: italic;
+    animation: fade 1.8s infinite alternate;
+}
+
 /* Mobile */
 @media (max-width: 480px) {
     body { padding: 10px; }
